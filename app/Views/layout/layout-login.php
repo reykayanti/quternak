@@ -57,15 +57,10 @@
                 </div>
 
 
-                <?php if(!logged_in()): ?>
        
                     <?= $this->include('layout/nav-guest'); ?>
             
-                <?php else: ?>
-            
-                    <?= $this->include('layout/nav-user'); ?>
-            
-                <?php endif; ?>
+                
                 
 
 

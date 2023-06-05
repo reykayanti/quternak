@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/login.css" />
+<?= $this->extend('layout/layout-login'); ?>
+<?= $this->section('content'); ?>
 
-    <title>Login</title>
-  </head>
-  <body>
     <div class="login">
       <br />
       <div class="card-log">
@@ -74,5 +66,5 @@
         <div class="blmadaakun">Belum punya akun? <a href="/register">Daftar sekarang</a></div>
       </div>
     </div>
-  </body>
-</html>
+
+    <?= $this->endSection(); ?>
