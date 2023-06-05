@@ -34,8 +34,9 @@
   max-width: 100%;
   height: auto;
   display: block;
-  justify-content: center;
-  align-items: cente;
+  margin: auto;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .hero-right img {

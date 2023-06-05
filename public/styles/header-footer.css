@@ -28,9 +28,15 @@
 }
 
 .navbar-link {
+  display: flex;
+  gap: 8px;
   text-decoration: none;
   color: #667085;
   font-weight: bold;
+  vertical-align: middle;
+}
+
+.link-text{
   vertical-align: middle;
 }
 
