@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+.login {
+  height: 800px;
+  width: auto;
+  background-image: url("img/login.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card-log {
+  width: 420px;
+  height: 567px;
+  background-color: white;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.082);
+}
+.card-log form {
+  padding: 40px 40px 30px 40px;
+}
+.card-log form h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.card-log .email,
+.card-log .pass,
+.card-log .fullname {
+  margin-top: 10px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  color: #344054;
+}
+.card-log input[type="email"],
+.card-log input[type="password"],
+.card-log input[type="text"] {
+  padding: 10px 15px;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: solid 2px;
+  border-color: #e7e7e7;
+  margin: 10px 5px;
+  width: 87%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+.bwh {
+  display: flex;
+  justify-content: space-between;
+}
+.checkbb {
+  padding: 6px;
+  font-size: 17px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+.bwh .lupapass {
+  padding: 7px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+.bwh a {
+  color: rgb(255, 126, 74);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.masuklogin input {
+  margin-top: 30px;
+  padding: 15px;
+  width: 100%;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(255, 126, 74);
+  border: none;
+  cursor: pointer;
+}
+.masuklogin input:hover {
+  background-color: rgb(223, 92, 41);
+}
+.atau {
+  width: 340px;
+  display: flex;
+  color: rgb(179, 179, 179);
+  margin: auto;
+  justify-content: space-around;
+}
+.atau .line {
+  width: 150px;
+  height: 1.3px;
+  background-color: rgb(179, 179, 179);
+}
+.atau p {
+  margin-top: -8px;
+  padding: 0 10px;
+}
+.google {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  border: 1px solid rgb(172, 172, 172);
+  margin: 20px 35px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.google a {
+  text-decoration: none;
+  color: black;
+}
+.g {
+  margin-top: 30px;
+  width: 220px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.google .logo {
+  width: 20px;
+  height: 20px;
+  background-image: url("img/google.png");
+  background-size: cover;
+}
+.blmadaakun {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+.blmadaakun a {
+  color: rgb(255, 126, 74);
+  text-decoration: none;
+}
+
+.register {
+  height: 1050px;
+  width: auto;
+  background-image: url("img/login.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card-log2 {
+  width: 420px;
+  height: 800px;
+  background-color: white;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.082);
+}
+.ket {
+  padding: 30px 0 10px 0;
+  color: #9b9b9b;
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+.ket a {
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgb(228, 100, 50);
+}
+/* responsive */
+@media screen and (max-width: 500px) {
+  .card-log {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card-log {
+    width: 330px;
+  }
+}

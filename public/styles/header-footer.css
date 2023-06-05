@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+.header{
+  box-shadow: 0px 2px 12px 0px #00000014;
+}
+
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.navbar-logo {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 37px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #667085;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.navbar-login {
+  padding: 10px 16px;
+  background-color: #fff;
+  border: solid #d0d5dd;
+  text-decoration: none;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  border-color: #d0d5dd;
+  border-style: solid;
+  padding: 12px;
+  width: 290px;
+  height: 100%;
+}
+
+.navbar-search input[type='search'] {
+  width: 100%;
+  border: none;
+  margin-left: 5px;
+}
+
+.navbar-search input[type='search']:focus {
+  outline: none;
+}
+
+.navbar-search button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+footer{
+  background-color: #c94e00;
+}
+
+.footer-content {
+  height: 40vh;
+  color: #fff;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 250px;
+}
+
+.grid-item-left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: start;
+  align-items: left;
+}
+
+.grid-item-left img {
+  max-width: 227px;
+}
+
+.grid-item-left p {
+  line-height: 18px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.grid-item-right {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 80px;
+}
+
+.grid-item-right h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.grid-item-right ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  list-style: none;
+  text-align: left;
+  min-width: fit-content;
+}
+
+.grid-item-right li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-section .right-side {
+  display: flex;
+  gap: 64px;
+}
+
+.right-side span a {
+  text-decoration: none;
+  color: #fff;
+}
