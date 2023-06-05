@@ -7,8 +7,13 @@
 
 .hero {
   display: flex;
-  height: 60vh;
-  gap: 82px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-height: 60vh;
+  gap: 60px;
 }
 
 .hero-left {
@@ -26,14 +31,17 @@
 
 .hero-right {
   /* flex: 2; */
-  display: flex;
+  max-width: 100%;
+  height: auto;
+  display: block;
   justify-content: center;
-  align-items: center;
+  align-items: cente;
 }
 
 .hero-right img {
-  max-width: 730px;
-  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .hero-search {
@@ -95,5 +103,5 @@
   border-radius: 8px;
 
   font-weight: 600;
-font-size: 14px;
+  font-size: 14px;
 }
