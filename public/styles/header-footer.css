@@ -119,7 +119,7 @@ footer {
 
 .grid-item-right {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   align-items: start;
   gap: 80px;
 }
