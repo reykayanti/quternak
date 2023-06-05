@@ -81,3 +81,9 @@
   font-weight: 500;
   font-size: 18px;
 }
+
+@media screen and (max-width: 800px) {
+  .card2 {
+    margin: auto;
+  }
+}

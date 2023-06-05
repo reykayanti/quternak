@@ -95,3 +95,12 @@
   font-weight: 600;
   color: #101828;
 }
+
+@media screen and (max-width: 800px) {
+  .items {
+    margin: auto;
+  }
+  .card {
+    margin: auto;
+  }
+}
